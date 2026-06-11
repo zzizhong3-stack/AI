@@ -1,0 +1,7 @@
+# EAS Build — 只上传 mobile 目录需要的内容
+../../server
+../../.claude
+../../CLAUDE.md
+../../AGENTS.md
+node_modules
+.git

@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "AI Lover",
+    "slug": "ai-lover",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "ai-lover",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ailover.app"
+    },
+    "android": {
+      "usesCleartextTraffic": true,
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1a2e",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ailover.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b0dd955a-9432-46be-ace3-dcf13919f701"
+      }
+    },
+    "owner": "1x1"
+  }
+}
